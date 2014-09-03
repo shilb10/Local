@@ -1,0 +1,27 @@
+(* CS421 - Fall 2014
+ * MP1
+ *
+ * Please keep in mind that there may be more than one
+ * way to solve a problem.  You will want to change how a number of these start.
+ *)
+
+open Mp1common
+
+(* Problem 1 *)
+let random = 0  (* You want to change this *)
+
+(* Problem 2 *)
+let pi = 0.0 (* You want to change this *)
+
+(* Problem 3 *)
+let myFirstFun n = raise (Failure "Function not implemented yet.")
+
+(* Problem 4 *)
+let circumference r = raise (Failure "Function not implemented yet.")
+
+(* Problem 5 *)
+let double n = raise (Failure "Function not implemented yet.")
+
+(* Problem 6 *)
+let make_bigger x = raise (Failure "Function not implemented yet.")
+
