@@ -1,0 +1,173 @@
+
+Peer Evaluation
+===============
+
+Q. Suppose you have been given $360 and you are asked to distribute
+the money among the OTHER team members based on their contribution to
+the team project. You can only award whole dollar amounts.
+        
+netids          Amount given
+-----------------------------
+wozniew1        - 60
+wyang15         - 60
+kshu2           - 60
+gli24           - 60
+bajekal1        - 60
+slee117         - 60
+            -----------------
+            Total = $360
+            -----------------
+Q. For each member of the teams, answer the followings:
+
+
+Evaluation of wozniew1
+----------------------
+* What did you do together and how did you work together?
+
+We did not work together directly, but we discussed aspects of the projects during the team meetings. He was respectful, helpful, and cooperative. 
+
+* Did wozniew1 cooperate(Y/N)?
+  ** Why do you think so? Illustrate with an example. 
+
+  Yes. He was always open to ideas regarding the direction of the project or new features to implement. 
+
+* Did wozniew1 fulfill his/her commitments (Y/N)? 
+  ** Why do you think so? Illustrate with an example.
+
+  Yes. He always completed the tasks that were assigned to him each iteration. If he had time left over, he would help anyone struggling with their part.
+
+* Do you feel that wozniew1 contributed positively to the project
+  (Y/N)?
+  ** Why is that so? Illustrate with an example.
+
+  Yes. He had great knowledge of the technologies we were using and helped teach the less experienced members when they needed help.
+
+
+Evaluation of wyang15
+----------------------
+* What did you do together and how did you work together? 
+
+We did not work together, but we discussed ideas and aspects of the project during team meetings. She was respectful and accepting of everyone's ideas.
+
+* Did wyang15 cooperate(Y/N)?
+  ** Why do you think so? Illustrate with an example. 
+
+Yes. She was always attentive during meetings and agreeable to new ideas about the direction of the project.
+
+* Did wyang15 fulfill his/her commitments (Y/N)? 
+  ** Why do you think so? Illustrate with an example. 
+
+  Yes. She completed the tasks that were assigned to her each iteration and helped create new tasks for future iterations.
+
+* Do you feel that wyang15 contributed positively to the project
+  (Y/N)?
+  ** Why is that so? Illustrate with an example.
+
+  Yes. She had great ideas about how to implement the email module of our project and had nice quality of work.
+
+
+Evaluation of kshu2
+----------------------
+* What did you do together and how did you work together? 
+
+We worked on some UI elements towards the end of the project. We worked well together.
+
+* Did kshu2 cooperate(Y/N)?
+  ** Why do you think so? Illustrate with an example. 
+
+  Yes. He was always respectful of other's ideas and helped other members whenever possible.
+
+* Did kshu2 fulfill his/her commitments (Y/N)? 
+  ** Why do you think so? Illustrate with an example.
+
+  Yes. He completed the tasks assigned to him with great quality. He also wrote very nice end to end tests.
+
+* Do you feel that kshu2 contributed positively to the project
+  (Y/N)?
+  ** Why is that so? Illustrate with an example.
+
+  Yes. He had great ideas about certain features of the project and about the UI. Furthermore, he had experience with the technologies being used so he was able to help other members learn. 
+
+
+Evaluation of gli24
+----------------------
+* What did you do together and how did you work together? 
+
+We worked on client side features. We worked well together.
+
+* Did gli24 cooperate(Y/N)?
+  ** Why do you think so? Illustrate with an example.
+
+  Yes. He was open to discourse regarding how to implement certain features and was respectful of other member's opinions. 
+
+* Did gli24 fulfill his/her commitments (Y/N)? 
+  ** Why do you think so? Illustrate with an example.
+
+  Yes. He completed the tasks assigned to him each iteration and wrote some nice code for both the front and back end.
+
+* Do you feel that gli24 contributed positively to the project
+  (Y/N)?
+  ** Why is that so? Illustrate with an example.
+
+  Yes. He was always eager to help and allowed the team to accomplish more in the time we were given.
+
+
+
+
+Evaluation of bajekal1
+----------------------
+* What did you do together and how did you work together? 
+
+We worked together on the front end for the majority of the project and wrote some tests together. We worked well together.
+
+* Did bajekal1 cooperate(Y/N)?
+  ** Why do you think so? Illustrate with an example.
+
+  Yes. He was very helpful since he was familiar with the technology and took a lot of time to explain some functionality to me. 
+
+* Did bajekal1 fulfill his/her commitments (Y/N)? 
+  ** Why do you think so? Illustrate with an example.
+
+  Yes. He completed all his tasks each iteration and also assumed an administrative role that helped keep the team organized.
+
+* Do you feel that bajekal1 contributed positively to the project
+  (Y/N)?
+  ** Why is that so? Illustrate with an example.
+
+  Yes. He helped most of the team learn the new technologies we'd be using and was an integral part of this team.
+
+
+Evaluation of slee117
+----------------------
+* What did you do together and how did you work together? 
+
+We did not work together directly on the project, but we discussed some general topics regarding the direction of the project during team meetings.
+
+* Did slee117 cooperate(Y/N)?
+  ** Why do you think so? Illustrate with an example. 
+
+  Yes. He was accepting of other people's ideas and was easy to get along with.
+
+* Did slee117 fulfill his/her commitments (Y/N)? 
+  ** Why do you think so? Illustrate with an example.
+
+  Yes. He completed the tasks he was assigned each week with good quality.
+
+* Do you feel that slee117 contributed positively to the project
+  (Y/N)?
+  ** Why is that so? Illustrate with an example.
+
+  Yes. He wrote great code and tests for the back end and helped solve some issues with the email module.
+
+
+Self Evaluation 
+===============
+* Did you fulfill your commitments (Y/N)?
+  ** Why do you think so? Illustrate with an example.
+
+  Yes. I completed the tasks I had each iteration and helped others with their work whenever possible.
+
+* Do you feel that you contributed positively to the project (Y/N)?
+  ** Why is that so? Illustrate with an example
+  
+  Yes. I presented ideas which the team incorporated into the design of our website and helped write code and tests whenever I could.

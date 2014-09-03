@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CS 241 - Semaphores</title>
+    
+    <style type="text/css">
+    body { font-family: arial; font-size: 12px; }
+    h2 { font-size: 24px; }
+    h3 { font-size: 22px; }
+    h4 { font-size: 16px; }
+    blockquote { border: dashed 1px black; padding: 3px; display: block; background-color: #dddddd;  font-family: courier; color: #000080;}
+    tt { color: #000080; }
+    </style>
+</head>
+<body>
+    <h1>Discussion Section for October 17, 2013: Producer-Consumer problem using Semaphore!</h1>
+    <hr />
+
+    <h2>Introduction</h2>
+    <p>
+      
+      The proposed problem is a classical producer-consumer scheme in
+      which there is just 1 producer and one consumer manipulating the
+      bytes in a shared circular buffer. In particular, the shared
+      buffer will be a an array of chars in which the producer writes
+      one byte at a time getting it from a default string.
+      
+      We are going to use sem_wait and sem_post as primitives to
+      provide semaphore functionality.
+    </p>
+
+    <h2>Tasks</h2>
+    <p>
+      What has to be done is:
+      <ul>
+	<li>Complete the initialization of the variables</li>
+	<li>Implement the Producer</li>
+	<li>Implement the Consumer</li>
+      </ul>
+      That's all. <!-- I stayed up all night, it's 9 am, I have class
+      at 9:30 and 4 hours of discussion section in the afternoon from
+      1 pm. I'm done. -->
+    </p>
+
+    <h2>Compile and Run</h2>
+
+    To compile these programs, run:
+    <blockquote>
+        make clean<br />
+        make
+    </blockquote>
+
+    To run your own implementation (ds7.c):
+    <blockquote>
+        ./prodcons
+    </blockquote>
+
+</body>
+
+</html>

@@ -1,0 +1,169 @@
+% (c) 2002 Matthew Boedicker <mboedick@mboedick.org> (original author) http://mboedick.org
+% (c) 2003-2007 David J. Grant <davidgrant-at-gmail.com> http://www.davidgrant.ca
+% (c) 2008 Nathaniel Johnston <nathaniel@nathanieljohnston.com> http://www.nathanieljohnston.com
+% (c) 2011 Scott Clark <sc932@cornell.edu> http://cam.cornell.edu/~sc932
+%
+
+%This work is licensed under the Creative Commons Attribution-Noncommercial-Share Alike 2.5 License. To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-sa/2.5/ or send a letter to Creative Commons, 543 Howard Street, 5th Floor, San Francisco, California, 94105, USA.
+
+\documentclass[letterpaper,10pt]{article}
+\newlength{\outerbordwidth}
+\pagestyle{empty}
+\raggedbottom
+\raggedright
+\usepackage[svgnames]{xcolor}
+\usepackage{framed}
+\usepackage{tocloft}
+\usepackage{etoolbox}
+\usepackage{enumitem}
+\robustify\cftdotfill
+\setlist[itemize]{itemsep=.01cm}
+
+%-----------------------------------------------------------
+%Edit these values as you see fit
+\setlength{\outerbordwidth}{3pt}  % Width of border outside of title bars
+\definecolor{shadecolor}{gray}{0.75}  % Outer background color of title bars (0 = black, 1 = white)
+\definecolor{shadecolorB}{gray}{0.93}  % Inner background color of title bars
+%-----------------------------------------------------------
+%Margin setup
+\setlength{\evensidemargin}{-0.25in}
+\setlength{\headheight}{-0.25in}
+\setlength{\headsep}{0in}
+\setlength{\oddsidemargin}{-0.25in}
+\setlength{\paperheight}{11in}
+\setlength{\paperwidth}{8.5in}
+\setlength{\tabcolsep}{0in}
+\setlength{\textheight}{9.75in}
+\setlength{\textwidth}{7in}
+\setlength{\topmargin}{-0.3in}
+\setlength{\topskip}{0in}
+\setlength{\voffset}{0.1in}
+
+%-----------------------------------------------------------
+%Custom commands
+\newcommand{\resitem}[1]{\item #1 \vspace{-2pt}}
+\newcommand{\resheading}[1]{\vspace{-2pt}
+  \parbox{\textwidth}{\setlength{\FrameSep}{\outerbordwidth}
+    \begin{shaded}
+
+\setlength{\fboxsep}{0pt}\framebox[\textwidth][l]{\setlength{\fboxsep}{4pt}\fcolorbox{shadecolorB}{shadecolorB}{\textbf{\mbox{~}\makebox[6.762in][l]{\large #1} \vphantom{p\^{E}}}}}
+    \end{shaded}
+  }\vspace{-2pt}
+}
+
+\newcommand{\ressubheading}[6]{
+\hspace{.1in}\begin{tabular*}{6.8in}{l@{\extracolsep{\fill}} r}
+		\textbf{#1} & \textit{#2} \\
+		\textit{#3} & \textit{#4} \\
+		\textit{#5} & \textit{#6} \\
+\end{tabular*}\hspace{.1in}}
+
+\newcommand{\ressubheadingmedium}[4]{
+\hspace{.1in}\begin{tabular*}{6.8in}{@{\extracolsep{\fill}} lr}
+		\textbf{#1} & \textit{#2} \\
+		\textit{#3} & \textit{#4} \\ 
+\end{tabular*}\hspace{.1in}}
+
+\newcommand{\ressubheadingsmall}[2]{
+\hspace{.1in}\begin{tabular*}{6.8in}{@{\extracolsep{\fill}} lr}
+		\textbf{#1} & \textit{#2} \\
+\end{tabular*}\hspace{.1in}}
+
+\newcommand{\ressubheadingsmallregular}[2]{
+\hspace{.1in}\begin{tabular*}{6.8in}{@{\extracolsep{\fill}} lr}
+		#1 & \textit{#2} \\
+\end{tabular*}\hspace{.1in}}
+
+%-----------------------------------------------------------
+\begin{document}
+
+\begin{tabular*}{7in}{l@{\extracolsep{\fill}}r}
+
+\textbf{\Large Shiladitya Bhattacharyya} &  \\
+sbhttch2@illinois.edu & 1655 Blanc Court\\
+224-234-0690 & Gurnee, IL 60031 
+
+\end{tabular*}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\resheading{Education}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\ressubheading{University of Illinois at Urbana-Champaign}{Urbana-Champaign, IL}{BS in Computer Science}{Expected Spring 2015}{BS in Mathematics}{GPA: 3.83/4.00}
+
+\ressubheadingsmall{Illinois Math and Science Academy}{Aurora, IL}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\resheading{Skills and Coursework}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\hspace{.1in}\begin{tabular*}{6.8in}{@{\extracolsep{\fill}} l r}
+\textbf{Proficient Languages} & \textbf{Relevant Coursework} \\
+\begin{tabular}{l c c c r}
+Python, ~ & Java, ~ & C, ~ & C++, ~ & R
+\end{tabular} & 
+				\begin{tabular}{@{\extracolsep{\fill}} l c r}
+				Numerical Methods, ~ & Harmonic Analysis, ~ & Algorithms \\ 
+
+				\end{tabular}
+\end{tabular*}\hspace{.1in}
+\hfill \\
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\resheading{Research and Work Experience}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\ressubheadingmedium{Quant/Trader Internship}{June 2014 - Aug 2014}{Belvedere Trading}{Chicago, Illinois}
+\begin{itemize}
+	\item Learned trading and options theory and clerked for multiple trading desks.
+	\item Researched various volitility models including stochastic and jump models and their effects on options pricing.
+	\item Wrote map-reduce jobs to compute market toxicity metrics and analyzed their ability to predict volitility using linear/harmonic analysis.
+	\item Developed and simulated algorithmic trading strategies incorporating both static/dynamic thresholds and stochastic controls.
+\end{itemize}
+
+\ressubheadingmedium{Research on Random Knot Theory}{Jan 2013 - Sept 2013}{Illinois Geometry Lab}{Urbana, IL}
+\begin{itemize}
+	\item Explored various models of random knot generation using ``SnapPy'' software.
+	\item Contributed to ``SnapPy'' source code by implementing knot manipulating functions in Python.
+	\item Analyzed data using distribution fitting techniques.
+\end{itemize}
+
+\ressubheadingmedium{Mentor of Math 461 (Probability Theory)}{Jan 2013 - Jan 2014}{UIUC Department of Mathematics}{Urbana, IL}
+\begin{itemize}
+	\item Assisted students taking Math 461 online with course work.
+	\item Graded online assignments using \textit{Mathematica} software.
+	\item Was students' primary contact for courseware related questions or concerns. 
+\end{itemize}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\resheading{Awards, Honors, and Distinctions}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\ressubheadingsmall{Most Outstanding Major Award in Mathematics}{May 2014} \\
+\ressubheadingsmall{Vincent O. Greene Scholarship in Mathematics}{May 2013} \\
+\ressubheadingsmall{Salma Wanna Award in Mathematics}{May 2013}\\
+\ressubheadingsmall{$3^{rd}$ year James Scholar}{}\\
+\ressubheadingsmall{$3^{rd}$ year Dean's List student}{}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\resheading{Miscellaneous}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\hspace{.1in}Some interests include Graph Theory, Additive Number Theory, Analysis, Stochastic Calculus, and \LaTeX.\hspace{.1in} \\
+\hspace{.1in}In my free time, I enjoy classical guitar, long distance running, and fine espresso.
+
+\end{document}
